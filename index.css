@@ -9,7 +9,7 @@ body {
   display: flex;
   border: 10px solid #6c38cc;
   height: 100vh;
-  align-items: center;
+  align-items: stretch;
 }
 
 .item {
