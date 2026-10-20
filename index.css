@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-  display: flex;
+  display: inline-flex;
   border: 10px solid #6c38cc;
 }
 
