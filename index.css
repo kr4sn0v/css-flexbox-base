@@ -13,7 +13,8 @@ body {
   display: flex;
   border: 10px solid #6c38cc;
   flex-wrap: wrap;
-  gap: 20px 10px;
+  column-gap: 20px;
+  row-gap: 10px;
 }
 
 .item {
