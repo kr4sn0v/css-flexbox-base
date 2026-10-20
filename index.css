@@ -12,8 +12,7 @@ body {
 .container {
   display: flex;
   border: 10px solid #6c38cc;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
 }
 
 .item {
