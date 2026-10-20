@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background: #1c1b21;
   color: #fafafa;
@@ -6,13 +10,20 @@ body {
 }
 
 .container {
-  display: inline-flex;
+  display: flex;
   border: 10px solid #6c38cc;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .item {
   background: #232228;
   border: 1px solid #6c38cc;
   text-align: center;
+  width: calc(100% / 3);
   padding: 10px;
+}
+
+.item4 {
+  order: 1;
 }
