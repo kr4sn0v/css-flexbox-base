@@ -9,7 +9,7 @@ body {
   display: flex;
   border: 10px solid #6c38cc;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .item {
