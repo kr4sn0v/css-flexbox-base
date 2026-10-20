@@ -8,8 +8,8 @@ body {
 .container {
   display: flex;
   border: 10px solid #6c38cc;
-  flex-direction: row;
-  justify-content: space-evenly;
+  height: 100vh;
+  align-items: center;
 }
 
 .item {
