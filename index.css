@@ -10,8 +10,8 @@ body {
   flex-wrap: wrap;
   border: 10px solid #6c38cc;
   height: 100vh;
-  justify-content: center;
-  align-content: space-evenly;
+  justify-content: start;
+  align-items: start;
 }
 
 .item {
@@ -19,4 +19,8 @@ body {
   border: 1px solid #6c38cc;
   text-align: center;
   padding: 10px;
+}
+
+.item2 {
+  align-self: center;
 }
