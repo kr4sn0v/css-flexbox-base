@@ -22,3 +22,7 @@ body {
   padding: 10px;
   flex: 1;
 }
+
+.item2 {
+  flex: 2;
+}
